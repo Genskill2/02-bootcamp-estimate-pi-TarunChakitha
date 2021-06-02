@@ -19,8 +19,6 @@ def monte_carlo(darts):
         if distance < 1: inside_circle += 1
     return (inside_circle/darts)*4
     
-
-    return
 class TestWallis(unittest.TestCase):
     def test_low_iters(self):
         for i in range(0, 5):
