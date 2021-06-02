@@ -2,12 +2,14 @@ import math
 import unittest
 import random
 
+#Wallis Function
 def wallis(n):
     ans = 1
     for j in range(1,n+1):
         ans = ans*((4*(j**2))/(4*(j**2) - 1))
     return ans*2
 
+#Monte Carlo Function
 def monte_carlo(darts):
     inside_circle = 0
 
